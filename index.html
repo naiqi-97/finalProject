@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+   
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Nike's Web</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="random-select.html">今天吃什麼?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="club-course.html">ClubCourse</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="rpg.html">我要去右下角</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="ytplayer.html">心情點唱機</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="love-taste.html">心理測驗</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="guessSong.html">猜歌遊戲</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide" src="IMG_3647.jpeg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1>Welcome</h1>
+                <p style="font-family: 微軟正黑體;">歡迎來到我的網站。<br>可以透過這個網站紓解下自己。</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+  
+            <img class="second-slide" src="IMG_3647.jpeg" alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1 style="color: rgb(68, 68, 233); font-family: 微軟正黑體;">生活中的小樂趣</h1>
+                <p style="color: rgb(68, 68, 233);font-family: 微軟正黑體;">喜歡猜歌的可以來嘗試看看~</p>
+                <p><a class="btn btn-lg btn-primary" href="guessSong.html" role="button">馬上去</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="third-slide" src="IMG_3647.jpeg" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1></h1>
+                <p style="color: rgb(68, 68, 233);font-family: 微軟正黑體;">課堂小筆記</p>
+                <p><a class="btn btn-lg btn-primary" href="https://docs.google.com/document/d/1jWR6gb7h_-d0buDY_ukkpX6I40Lly4_9Aezcx0m5Hks/edit?usp=sharing" role="button">view detail</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+      <div class="container marketing">
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">自我簡介 <span class="text-muted"></span></h2>
+            <p class="lead">嗨!我是資工系大三的學生，陳乃綺，平常的休閒就是看看影片，打打遊戲。喜歡聽音樂。
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="me.jpg" >
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+      </div>  
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="assets/js/vendor/holder.min.js"></script>
+  </body>
+</html>

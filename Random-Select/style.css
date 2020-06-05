@@ -1,0 +1,99 @@
+body{
+    text-align:center;
+    background-color: lightblue;
+}
+li{
+    text-align:left;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+#submit{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;   
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #6dc070;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px #999;
+}
+#submit:hover {background-color: #6dc070}
+
+#submit:active {
+  background-color: #8fb991;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#delete{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;   
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #6dc070;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px #999;
+}
+#delete:hover {background-color: #6dc070}
+
+#delete:active {
+  background-color: #8fb991;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#choose{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;   
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px #999;
+}
+#choose:hover {background-color: lightpink}
+
+#choose:active {
+  background-color: lightcoral;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#stopChoose{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;   
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px #999;
+}
+#stopChoose:hover {background-color: lightpink}
+
+#stopChoose:active {
+  background-color: lightcoral;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#food{
+    background-color: lightgrey;
+    border:1px solid lightgrey;
+}

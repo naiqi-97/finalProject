@@ -1,0 +1,22 @@
+body{
+    text-align:center;
+    background: url('b.png');
+    background-size: 400px,300px;
+}
+
+table{
+    width:60%;
+    margin: auto;
+    font-size: 1.5em;
+    border: 1px solid cadetblue;
+}
+th{
+    background-color: sandybrown;
+    border:2px solid blueviolet;
+}
+td{
+    border-top: 1px dotted cadetblue;
+}
+#calendar{
+    margin-top: 20px;
+}
