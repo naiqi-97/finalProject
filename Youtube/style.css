@@ -5,3 +5,108 @@ body{
 h2{
     height: 32px;
 }
+#playButton{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;   
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #6dc070;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px #999;
+}
+#playButton:hover {background-color: #6dc070}
+
+#playButton:active {
+  background-color: #8fb991;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#pauseButton{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;   
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(235, 83, 36);
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px #999;
+}
+#pauseButton:hover {background-color: rgb(235, 83, 36)}
+
+#pauseButton:active {
+  background-color: rgb(238, 104, 64);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#fineButton{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;   
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(235, 36, 145);
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px #999;
+}
+#fineButton:hover {background-color: rgb(235, 36, 145)}
+
+#fineButton:active {
+  background-color: rgb(233, 105, 175);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#happyButton{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;   
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(235, 195, 14);
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px #999;
+}
+#happyButton:hover {background-color: rgb(235, 195, 14)}
+
+#happyButton:active {
+  background-color: rgb(241, 243, 130);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#sadButton{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;   
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(18, 88, 218);
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px #999;
+}
+#sadButton:hover {background-color: rgb(18, 88, 218)}
+
+#sadButton:active {
+  background-color: rgb(80, 133, 231);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

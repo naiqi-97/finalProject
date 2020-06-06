@@ -1,7 +1,7 @@
 var player;
 var currentPlay = 0;
 var playList = happyPlayList;
-
+var playTime = happyplayTime;
 function onYouTubeIframeAPIReady(){
     
     player = new YT.Player("player",{
@@ -26,6 +26,7 @@ function onYouTubeIframeAPIReady(){
 function onPlayerReady(event){
     $("#happyButton").click(function(){
         playList=happyPlayList;
+        playTime=sadplayTime;
         currentPlay = 0;
         $("#musicTitle").text("");
         player.cueVideoById({
@@ -38,6 +39,7 @@ function onPlayerReady(event){
     });
     $("#sadButton").click(function(){
         playList=sadPlayList;
+        playTime=sadplayTime;
         currentPlay = 0;
         $("#musicTitle").text("");
         player.cueVideoById({
@@ -49,6 +51,7 @@ function onPlayerReady(event){
     });
     $("#fineButton").click(function(){
         playList=finePlayList;
+        playTime=fineplayTime;
         currentPlay = 0;
         $("#musicTitle").text("");
         player.cueVideoById({

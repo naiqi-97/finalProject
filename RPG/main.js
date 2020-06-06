@@ -31,7 +31,7 @@ $(document).ready(function(){
 });
 
 $(document).keydown(function(event){
-    console.log(event);
+    //console.log(event);
     let targetImgMainX, targetImgMainY,  targetBlock, cutImagePositionX;
     event.preventDefault();
     
