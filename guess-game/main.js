@@ -59,7 +59,7 @@ function setPosition(topic, currentPlayIndex){
         case 1:
             var temp=null; 
             do{
-               temp = Math.floor(Math.random()*(playList.chinese.length-10))+10;   
+               temp = Math.floor(Math.random()*(playList.korea.length-10))+10;   
             }while(temp==playList.korea.indexOf(currentPlayIndex));
             return temp;
     }  
