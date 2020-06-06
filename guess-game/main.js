@@ -140,7 +140,7 @@ $(document).ready(function(){
                         "<input name='options' type='radio' value ="+"<label>"+currentPlayList[currentQuiz][0]+"</label><br><br>"
                     );
                 }else{
-                    let index = setPosition(currentTopicNum,currentPlayList[currentQuiz]);
+                    let index = tempArray[currentPlayList.length+x];
                     switch(currentTopicNum){
                         case 0:
                             $("#answers").append(
@@ -207,7 +207,7 @@ $(document).ready(function(){
                                         "<input name='options' type='radio' value="+"<label>"+currentPlayList[currentQuiz][0]+"</label><br><br>"
                                     );
                                 }else{             
-                                    let index=setPosition(currentTopicNum,currentPlayList[currentQuiz]);    
+                                    let index=tempArray[currentPlayList.length+x];    
                                     switch(currentTopicNum){
                                         case 0:
                                             $("#answers").append(
