@@ -53,13 +53,13 @@ function setPosition(topic, currentPlayIndex){
         case 0:
             var temp =null; 
             do{
-               temp = Math.floor(Math.random()*playList.chinese.length);   
+               temp = Math.floor(Math.random()*(playList.chinese.length-10))+10;   
             }while(temp==playList.chinese.indexOf(currentPlayIndex));
             return temp;
         case 1:
             var temp=null; 
             do{
-               temp = Math.floor(Math.random()*playList.korea.length);   
+               temp = Math.floor(Math.random()*(playList.chinese.length-10))+10;   
             }while(temp==playList.korea.indexOf(currentPlayIndex));
             return temp;
     }  
@@ -118,8 +118,7 @@ $(document).ready(function(){
             $("#answers").toggle(); 
             $("#optionToTopic").toggle();
             $("#GuessButton").attr("value","進入猜歌");
-            $("#GuessButton").toggle();
-            $("#result").empty();
+            $("#GuessButton").toggle();           
             $("#result").toggle();
         } 
         if(currentQuiz==null&&currentTopicNum!=null){  
@@ -131,6 +130,7 @@ $(document).ready(function(){
             loadId(currentPlayList[currentPlay][1]);            
             $("#question").text(currentQuiz+1);
             $("#answers").empty();
+            $("#result").empty();
             //$("#answers").toggle();    
             let randomPostion=Math.floor(Math.random()*3);  
             correctPosition=randomPostion;
@@ -140,7 +140,7 @@ $(document).ready(function(){
                         "<input name='options' type='radio' value ="+"<label>"+currentPlayList[currentQuiz][0]+"</label><br><br>"
                     );
                 }else{
-                    let index = tempArray[currentPlayList.length+x];
+                    let index = setPosition(currentTopicNum,currentPlayList[currentQuiz]);
                     switch(currentTopicNum){
                         case 0:
                             $("#answers").append(
@@ -207,7 +207,8 @@ $(document).ready(function(){
                                         "<input name='options' type='radio' value="+"<label>"+currentPlayList[currentQuiz][0]+"</label><br><br>"
                                     );
                                 }else{             
-                                    let index=tempArray[currentPlayList.length+x];    
+                                    let index=setPosition(currentTopicNum,currentPlayList[currentQuiz]);    
+                                    console.log(index);
                                     switch(currentTopicNum){
                                         case 0:
                                             $("#answers").append(
